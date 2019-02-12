@@ -1,0 +1,27 @@
+{
+  "q1": "Are you hungry?",
+  "options": {
+    "Yes": {
+      "q2": "What would you like to eat?",
+      "options": {
+          "Hamburger": {
+            "reply": "Nice, I will order a hamburger for you!"
+          },
+          "Pizza":     {
+            "question": "Would you like pizza with mushrooms?",
+            "options":        {
+               "Yes": "Ok, I will order the best pizza in town for you",
+                "No": "No? Well... stay hungry then"
+            }
+          },
+          "Pop Corn": {
+            "reply": "not available"
+          },
+          "Chicken": {
+            "reply": "not available"
+          }
+      }
+    },
+    "No": "Ok. Call me when you're hungry"
+  }
+}
